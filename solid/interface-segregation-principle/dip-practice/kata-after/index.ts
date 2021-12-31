@@ -1,6 +1,6 @@
 import {EmployeeRepository} from "./interfaces";
 import {GreetingsSender} from "./greeting-sender";
-import {EmailSender} from "../email-sender";
+import {EmailSender} from "./email-sender";
 import {Email} from "./email-notification";
 import {FakeEmployeeRepository} from "./fake-employee-repository";
 

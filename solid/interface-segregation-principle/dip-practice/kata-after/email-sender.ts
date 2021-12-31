@@ -1,4 +1,4 @@
-import {EmailNotification, Sender} from "./kata-after/interfaces";
+import {EmailNotification, Sender} from "./interfaces";
 
 export class EmailSender implements Sender {
     private email: EmailNotification;
