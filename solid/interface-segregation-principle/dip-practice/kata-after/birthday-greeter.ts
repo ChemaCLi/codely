@@ -1,29 +1,29 @@
-import {EmployeeRepository} from "./interfaces";
-import {GreetingsSender} from "./greeting-sender";
-import {EmailSender} from "./email-sender";
-import {Email} from "./email-notification";
-import {FakeEmployeeRepository} from "./fake-employee-repository";
+import {EmployeeRepository, User, EmailSender} from "./interfaces";
+import {Email} from "./email";
 
 // Implementation sample
-export class EmployeesBirthdayGreetingsByEmailSender {
+export class BirthdayGreeter {
     private employeeRepository: EmployeeRepository;
+    private emailSender: EmailSender;
 
-    constructor() {
-        this.employeeRepository = new FakeEmployeeRepository();
+    constructor(
+        employeeRepository: EmployeeRepository,
+        emailSender: EmailSender
+    ) {
+        this.employeeRepository = employeeRepository;
+        this.emailSender = emailSender;
     }
 
     public sendGreetings() {
         const today = new Date();
         const employees = this.employeeRepository.findEmployeesBornOn(today);
         employees
-            .map(employee => {
-                const message = `Happy birthday, dear ${employee.getFirstName()}`;
-                return new Email(employee.getEmail(), "Happy birthday!", message)
-            })
-            .forEach(email => {
-                const emailSender = new EmailSender(email)
-                const greetingsSender = new GreetingsSender(emailSender)
-                greetingsSender.sendGreetings()
-            })
+            .map(employee => this.emailFor(employee))
+            .forEach(email => this.emailSender.send(email));
+    }
+
+    private emailFor(employee: User): Email {
+        const message = `Happy birthday, dear ${employee.getFirstName()}`;
+        return new Email(employee.getEmail(), "Happy birthday!", message);
     }
 }

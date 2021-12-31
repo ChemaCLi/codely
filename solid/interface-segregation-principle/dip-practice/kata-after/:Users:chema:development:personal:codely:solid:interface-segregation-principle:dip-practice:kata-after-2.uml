@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JavaScript-modules-diagram</ID>
+  <OriginalElement>/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after</OriginalElement>
+  <nodes>
+    <node x="-383.8571428571428" y="497.99999999999994">/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#Email#76;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmailSender#34;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmployeeRepository#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#User#28;</node>
+    <node x="7.214285714285722" y="302.14285714285717">/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/email-sender.ts#Email#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/email-sender.ts#EmailSender#33;</node>
+    <node x="35.71428571428572" y="531.0">/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/email.ts#Email#1;</node>
+    <node x="-398.3571428571428" y="249.5714285714286">/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/employee-repository.ts#EmployeeRepository#30;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/employee-repository.ts#User#8;</node>
+    <node x="-800.2142857142854" y="258.5714285714285">/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/fake-employee-repository.ts#EmployeeRepository#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/fake-employee-repository.ts#User#28;</node>
+    <node x="-720.7142857142854" y="531.0">/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/user.ts#User#0;</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/employee-repository.ts#EmployeeRepository#30;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/employee-repository.ts#User#8;" target="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/user.ts#User#0;" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#Email#76;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmailSender#34;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmployeeRepository#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#User#28;" target="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/email.ts#Email#1;" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/fake-employee-repository.ts#EmployeeRepository#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/fake-employee-repository.ts#User#28;" target="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/user.ts#User#0;" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#Email#76;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmailSender#34;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmployeeRepository#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#User#28;" target="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/employee-repository.ts#EmployeeRepository#30;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/employee-repository.ts#User#8;" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#Email#76;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmailSender#34;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmployeeRepository#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#User#28;" target="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/user.ts#User#0;" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/fake-employee-repository.ts#EmployeeRepository#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/fake-employee-repository.ts#User#28;" target="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/employee-repository.ts#EmployeeRepository#30;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/employee-repository.ts#User#8;" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/email-sender.ts#Email#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/email-sender.ts#EmailSender#33;" target="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/email.ts#Email#1;" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#Email#76;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmailSender#34;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#EmployeeRepository#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/birthday-greeter.ts#User#28;" target="/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/email-sender.ts#Email#8;/Users/chema/development/personal/codely/solid/interface-segregation-principle/dip-practice/kata-after/interfaces/email-sender.ts#EmailSender#33;" relationship="">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.85" showDependencies="false" x="-149.29411764705878" y="448.12605042016804" />
+  <SelectedNodes />
+  <Categories>
+    <Category>All</Category>
+  </Categories>
+  <VISIBILITY>Details</VISIBILITY>
+</Diagram>
+

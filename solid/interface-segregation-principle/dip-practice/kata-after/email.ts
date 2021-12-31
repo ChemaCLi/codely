@@ -1,6 +1,5 @@
-import {EmailNotification} from "./interfaces";
 
-export class Email implements EmailNotification {
+export class Email {
     private readonly to: string;
     private readonly subject: string;
     private readonly message: string;

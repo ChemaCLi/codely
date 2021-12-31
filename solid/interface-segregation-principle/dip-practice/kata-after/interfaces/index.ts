@@ -1,5 +1,3 @@
-export * from "./email-notification"
 export * from "./employee-repository"
-export * from "./greeter"
-export * from "./sender"
+export * from "./email-sender"
 export * from "./user"
