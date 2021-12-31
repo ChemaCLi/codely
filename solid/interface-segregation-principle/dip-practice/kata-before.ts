@@ -29,7 +29,7 @@ class EmailSender {
 export class BirthdayGreeter {
     private employeeRepository: EmployeeRepository;
 
-    public constructor(employeeRepository: EmployeeRepository, clock: Clock) {
+    public constructor(employeeRepository: EmployeeRepository) {
         this.employeeRepository = employeeRepository;
     }
 
