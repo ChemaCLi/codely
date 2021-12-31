@@ -37,9 +37,11 @@ export class BirthdayGreeter {
         const today = new Date();
         this.employeeRepository.findEmployeesBornOn(today)
             .then(employees =>
-                employees.forEach(({ email }) => {
-                    new EmailSender().send(email as Email)
-                })
+                (employees as Employee[])
+                    .map(employee => this.emailFor(employee))
+                    .forEach(email => {
+                        new EmailSender().send(email as Email)
+                    })
             );
     }
 
